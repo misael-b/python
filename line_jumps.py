@@ -21,8 +21,8 @@ def kangaroo(x1, v1, x2, v2):
     # Write your code here
     if v2 >= v1:
         return "NO"
-    interception = (x1-x2)/(v2-v1)
-    if interception <= 0 or interception % 1 != 0:
+    intersection = (x1-x2)/(v2-v1)
+    if intersection <= 0 or intersection % 1 != 0:
         return "NO"
     return "YES"
     
@@ -45,4 +45,3 @@ if __name__ == '__main__':
     fptr.write(result + '\n')
 
     fptr.close()
-
